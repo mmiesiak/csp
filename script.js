@@ -11,7 +11,7 @@ setTimeout(function() {
  
     // Work with the response
     success: function( response ) {
-        console.log( response ); // server response
+        console.log( response );
     }
   })
 }, 5000);
