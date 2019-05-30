@@ -8,7 +8,6 @@ setTimeout(function() {
 
       dataType: "jsonp",
 
-      // Work with the response
       success: function( response ) {
           console.log( response );
       }
